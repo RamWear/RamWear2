@@ -1,0 +1,14 @@
+{
+  collections(first: 10) {
+    edges {
+      node {
+        id
+        title
+        image {
+          altText
+          url
+        }
+      }
+    }
+  }
+}
